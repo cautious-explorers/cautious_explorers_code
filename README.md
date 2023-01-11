@@ -2,7 +2,7 @@
 This repository contains the processed data (`data` directory) and replication code (`code` directory) for the paper 'Cautious explorers generate more future academic impact'. 
 
 ## `data` directory
-The academic publication data used in the paper is provided by [APS](https://journals.aps.org/datasets) and [MAG](https://learn.microsoft.com/en-us/academic-services/graph/), and the source data is available on request from the official website. This directory contains the processed data for subsequent analysis and experimentation.
+The academic publication data used in the paper is provided by [APS](https://journals.aps.org/datasets) and [MAG](https://learn.microsoft.com/en-us/academic-services/graph/), and the source data is available on request from the official website. This directory contains the processed data for subsequent analyses and experiments.
 
 ## `code` directory
 - `1_processed_data.ipynb` is responsible for the processing and statistical description of the raw data;
