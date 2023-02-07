@@ -6,7 +6,10 @@ set.seed(1)
 
 psmfunction <- function(data,target,col,way=TRUE) {
     
-  #input: data:sample features ,target: grouping features, col:target feature
+  #input: 
+    # data:sample features 
+    # target: grouping features
+    # col:target feature
   #output: save the intergroup ATE in the '. /data/result/' directory 
     
   genrecolumns = stringr::str_subset(names(data), "^Genre")
